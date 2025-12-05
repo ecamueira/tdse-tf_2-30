@@ -124,7 +124,7 @@ La siguiente tabla (Tabla 1.2.1) muestra los valores ponderados asignados a cada
 
 Vistas las consideraciones tomadas en cuenta para discriminar cuál sería el proyecto óptimo para desarrollar, se decidió seguir adelante con la opción Base. Esta, a contraposición de las otras, cumple con lo mínimo que se pretende manteniendo a su vez un costo racional respecto a lo que ofrece. Si bien tanto el módulo de control de caudal como el de control de pH ofrecen nueva información más exacta, esta no tiene un impacto que justifique un poco el nivel de inversión que presupone.
 
-De esta forma, el proyecto a desarrollar consiste en un sistema de control de crecimiento de varios tipos de plantas centrándose en el monitoreo de humedad del suelo y temperatura y humedad del aire y actuando mediante doble irrigación (nutrientes y agua), control de distintos espectros de luz. Todo esto va a funcionar a la par de una configuración amplia y activa llevada a cabo de forma manual (usuario) como automática (mediante aprendizaje del sistema).
+De esta forma, el proyecto a desarrollar consiste en un sistema de control de crecimiento de varios tipos de plantas centrándose en el monitoreo de humedad del suelo y temperatura y humedad del aire y actuando mediante doble irrigación (nutrientes y agua), control de distintos espectros de luz y flujo de aire con un ventilador. Todo esto va a funcionar a la par de una configuración amplia y activa llevada a cabo de forma manual (usuario) como automática (mediante aprendizaje del sistema).
 
 Los principales desafíos que se van a afrontar son la integración efectiva de los distintos sistemas, la sincronización a través de la APP y lograr una automatización efectiva a partir de la información “aprendida” por el sistema.
 
