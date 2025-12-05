@@ -170,8 +170,7 @@ En conclusión, si bien Argentina cuenta con empresas que producen controladores
 | Interfaz/App | 4.1 | Toda la interacción de usuario, notificaciones y alarmas se realizará mediante la aplicación móvil conectada por BLE. |
 |  | 4.2 | La app permitirá configurar umbrales, iniciar riegos manuales, programar fotoperíodos y controlar el ventilador. |
 |  | 4.3 | El sistema enviará a la app lecturas periódicas y eventos críticos (ej. falta de agua, sensor desconectado, fallo de ventilador). |
-| Operación segura | 5.1 | En reinicio o condición insegura, el sistema deberá iniciar con todos los actuadores en estado OFF. |
-|  | 5.2 | El firmware deberá implementar una máquina de estados y manejo de errores para evitar comportamientos indeseados. |
+| Operación segura | 5.1 | Si ocurre un evento inesperado que suponga un riesgo al sistema, el mismo deberá reiniciar con los actuadores en estado pasivo |
 
 <p align="center"><em>Tabla 2: Requisitos del proyecto</em></p>
 
