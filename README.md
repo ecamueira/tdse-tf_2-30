@@ -134,7 +134,7 @@ Los principales desafíos que se van a afrontar son la integración efectiva de 
 En la Figura 1.3.1 se muestra el diagrama en bloques del sistema con los principales módulos del proyecto
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/57fad928-0021-4330-bb8f-daf010a19ebe" alt="image1">
+  <img src="https://github.com/ecamueira/tdse-tf_2-3/blob/main/diagrama%20en%20bloques.png" alt="image1">
 </p>
 
 <p align="center"><em>Figura 1.3.1: Diagrama en bloques del sistema</em></p>
