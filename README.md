@@ -61,7 +61,7 @@ La siguiente tabla (Tabla 1.2.1) muestra los valores ponderados asignados a cada
         <thead>
             <tr>
                 <th rowspan="2">Proyecto</th>
-                <th colspan="2">Cerradura con RFID y keypad</th>
+                <th colspan="2">Disponibilidad del hardware (9)</th>
                 <th colspan="2">Cerradura solo con keypad</th>
                 <th colspan="2">Cerradura con reconocimiento facial</th>
             </tr>
