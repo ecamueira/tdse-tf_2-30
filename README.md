@@ -45,89 +45,80 @@ Para comparar estas alternativas, se tienen en cuenta seis aspectos característ
 La siguiente tabla (Tabla 1.2.1) muestra los valores ponderados asignados a cada proyecto considerado
 
 <table>
-        <thead>
-            <tr>
-                <th rowspan="2">Proyecto</th>
-                <th colspan="2">Base</th>
-                <th colspan="2">Base + medidor de pH</th>
-                <th colspan="2">Base + medidor de caudal</th>
-            </tr>
-            <tr>
-                <th>Puntaje</th>
-                <th>Puntaje Ponderado</th>
-                <th>Puntaje</th>
-                <th>Puntaje Ponderado</th>
-                <th>Puntaje</th>
-                <th>Puntaje Ponderado</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="header-row">
-                <td align ="center">Disponibilidad de Hardware <br>(peso : 10)</td>
-                <td>10</td>
-                <td>100</td>
-                <td>10</td>
-                <td>100</td>
-                <td>4</td>
-                <td>40</td>
-            </tr>
-            <tr>
-                <td align ="center">Facilidad de Acceso <br>(peso : 8)</td>
-                <td>8</td>
-                <td>64</td>
-                <td>5</td>
-                <td>40</td>
-                <td>10</td>
-                <td>80</td>
-            </tr>
-            <tr class="header-row">
-                <td align ="center">Seguridad <br>(peso : 6)</td>
-                <td>8</td>
-                <td>48</td>
-                <td>8</td>
-                <td>48</td>
-                <td>6</td>
-                <td>36</td>
-            </tr>
-            <tr>
-                <td align ="center">Tiempo de Implementación <br>(peso : 8)</td>
-                <td>8</td>
-                <td>64</td>
-                <td>10</td>
-                <td>80</td>
-                <td>2</td>
-                <td>16</td>
-            </tr>
-            <tr class="header-row">
-                <td align ="center">Costo (peso : 5)</td>
-                <td>8</td>
-                <td>40</td>
-                <td>8</td>
-                <td>40</td>
-                <td>6</td>
-                <td>30</td>
-            </tr>
-            <tr>
-                <td align ="center">Interés personal <br>(peso : 8)</td>
-                <td>10</td>
-                <td>80</td>
-                <td>4</td>
-                <td>40</td>
-                <td>10</td>
-                <td>80</td>
-            </tr>
-            <tr class="highlight-green">
-                <td>Puntaje Total</td>
-                <td>-</td>
-                <td>396</td>
-                <td>-</td>
-                <td class="highlight-red">348</td>
-                <td>-</td>
-                <td>282</td>
-            </tr>
-        </tbody>
+    <thead>
+        <tr>
+            <th rowspan="2">Criterio</th>
+            <th colspan="2">Proyecto Base</th>
+            <th colspan="2">Base + Caudalímetro</th>
+            <th colspan="2">Base + Medidor de pH</th>
+        </tr>
+        <tr>
+            <th>Puntaje</th>
+            <th>Puntaje Ponderado</th>
+            <th>Puntaje</th>
+            <th>Puntaje Ponderado</th>
+            <th>Puntaje</th>
+            <th>Puntaje Ponderado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="header-row">
+            <td align="center">Disponibilidad de Hardware <br>(peso: 9)</td>
+            <td>9</td>
+            <td>81</td>
+            <td>7</td>
+            <td>63</td>
+            <td>4</td>
+            <td>36</td>
+        </tr>
+        <tr>
+            <td align="center">Impacto en el proyecto <br>(peso: 8)</td>
+            <td>8</td>
+            <td>64</td>
+            <td>5</td>
+            <td>40</td>
+            <td>6</td>
+            <td>48</td>
+        </tr>
+        <tr class="header-row">
+            <td align="center">Costo (peso: 8)</td>
+            <td>8</td>
+            <td>64</td>
+            <td>7</td>
+            <td>56</td>
+            <td>3</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td align="center">Dificultad técnica / Viabilidad <br>(peso: 10)</td>
+            <td>9</td>
+            <td>90</td>
+            <td>7</td>
+            <td>70</td>
+            <td>3</td>
+            <td>30</td>
+        </tr>
+        <tr class="header-row">
+            <td align="center">Interés personal <br>(peso: 7)</td>
+            <td>9</td>
+            <td>63</td>
+            <td>7</td>
+            <td>49</td>
+            <td>5</td>
+            <td>35</td>
+        </tr>
+        <tr class="highlight-green">
+            <td><strong>Puntaje Total</strong></td>
+            <td>-</td>
+            <td><strong>362</strong></td>
+            <td>-</td>
+            <td>278</td>
+            <td>-</td>
+            <td class="highlight-red">173</td>
+        </tr>
+    </tbody>
 </table>
-<p align="center"><em>Tabla 1.2.1: Comparación de proyectos</em></p>
+<p align="center"><em>Tabla X.X.X: Comparación de alternativas de proyecto</em></p>
 
 #### **1.3 Selección de proyecto**
 
