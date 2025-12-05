@@ -131,13 +131,13 @@ Los principales desafíos que se van a afrontar son la integración efectiva de 
 
 ###### **1.3.1 Diagrama en bloques**
 
-En la Figura 1.3.1 se muestra el diagrama en bloques del sistema con los principales módulos del proyecto
+En la Figura 1 se muestra el diagrama en bloques del sistema con los principales módulos del proyecto
 
 <p align="center">
   <img src="https://github.com/ecamueira/tdse-tf_2-3/blob/main/diagrama%20en%20bloques.png" alt="image1">
 </p>
 
-<p align="center"><em>Figura 1.3.1: Diagrama en bloques del sistema</em></p>
+<p align="center"><em>Figura 1: Diagrama en bloques del sistema</em></p>
 
 
 ### **2\. Elicitación de requisitos y casos de uso**
@@ -183,7 +183,7 @@ En las tablas 3.1 a 3.3 se presentan 3 casos de uso para el sistema.
 | **Flujo principal**     | El sistema realiza una lectura periódica del sensor de humedad de suelo. Si la lectura está por debajo del umbral, enciende la bomba mediante MOSFET e inicia el riego automático. Durante el riego, se siguen tomando lecturas hasta alcanzar el nivel deseado, momento en el cual la bomba se apaga. El sistema notifica a la app que se realizó un riego automático. |
 | **Flujos alternativos** | a. El tanque no tiene agua: el sensor de nivel indica vacío y el riego no se ejecuta; se envía alerta a la app. |                                                                                                                                                                                                                                                            
 
-<p align="center"><em>Tabla 2.2: Caso de uso 1: Riego automático</em></p>
+<p align="center"><em>Tabla 3.1: Caso de uso 1: Riego automático</em></p>
 
 
 | Elemento | Definición |
@@ -194,7 +194,7 @@ En las tablas 3.1 a 3.3 se presentan 3 casos de uso para el sistema.
 | **Flujos alternativos** | a. Se pierde la conexión BLE: el sistema mantiene la configuración previa y notifica error. <br> b. La app envía valores fuera de rango: el firmware descarta el comando y envía error a la app. <br> c. La tira LED no responde: el sistema detecta falla eléctrica y emite una notificación a la app.                           |
 
 
-<p align="center"><em>Tabla 2.3: Caso de uso 2: Control de iluminación</em></p>
+<p align="center"><em>Tabla 3.2: Caso de uso 2: Control de iluminación</em></p>
 
 
 | Elemento | Definición |
@@ -205,4 +205,4 @@ En las tablas 3.1 a 3.3 se presentan 3 casos de uso para el sistema.
 | **Flujos alternativos** | a. La temperatura vuelve a valores normales: el ventilador se apaga progresivamente. <br> b. El DHT22 entrega valores inválidos: el ventilador pasa a modo seguro (velocidad media) o permanece apagado según configuración. <br> c. El ventilador falla o no gira (si se mide tac/RPM): el sistema notifica falla a la app.                                     |
 
 
-<p align="center"><em>Tabla 2.4: Caso de uso 3: Control del ventilador según temperatura</em></p>
+<p align="center"><em>Tabla 3.3: Caso de uso 3: Control del ventilador según temperatura</em></p>
