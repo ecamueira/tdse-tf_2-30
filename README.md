@@ -161,7 +161,7 @@ En conclusión, si bien Argentina cuenta con empresas que producen controladores
 |  | 2.2 | El riego será interrumpido automáticamente si se detecta falta de agua (sensor de nivel) o marcha en seco (protección). |
 | Actuadores — Iluminación | 2.3 | El sistema contará con una tira LED RGB (analógica o direccionable) para iluminación artificial del cultivo, controlada por PWM. |
 |  | 2.4 | La intensidad y el espectro (combinación R/G/B) serán configurables desde la aplicación para definir fotoperíodos y etapas (crecimiento / fructificación). |
-| Actuadores — Ventilación | 2.5 | El sistema contará con un ventilador tipo PC (cooler) controlable por PWM o por MOSFET, para renovación de aire y control térmico local. |
+| Actuadores — Ventilación | 2.5 | El sistema contará con un ventilador tipo PC (cooler) controlable por PWM y por MOSFET de ser necesario, para renovación de aire y control térmico local. |
 |  | 2.6 | El ventilador podrá operar en modos definidos por firmware (p. ej. ON/OFF, control proporcional por temperatura/humedad), seleccionables desde la app. |
 |  | 2.7 | Si se desea, el sistema leerá la señal tach del ventilador para medir RPM y validar que el ventilador está funcionando. |
 | Almacenamiento | 3.1 | La configuración del sistema (umbrales, fotoperíodos, parámetros) se persistirá en la **Flash interna** del microcontrolador. |
