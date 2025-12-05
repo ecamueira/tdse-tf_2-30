@@ -183,24 +183,26 @@ En las tablas 3.1 a 3.3 se presentan 3 casos de uso para el sistema.
 | **Flujo principal**     | El sistema realiza una lectura periódica del sensor de humedad de suelo. Si la lectura está por debajo del umbral, enciende la bomba mediante MOSFET e inicia el riego automático. Durante el riego, se siguen tomando lecturas hasta alcanzar el nivel deseado, momento en el cual la bomba se apaga. El sistema notifica a la app que se realizó un riego automático. |
 | **Flujos alternativos** | a. El tanque no tiene agua: el sensor de nivel indica vacío y el riego no se ejecuta; se envía alerta a la app. |                                                                                                                                                                                                                                                            
 
-<p align="center"><em>Tabla 2.2: Caso de uso 1: El usuario quiere acceder con código</em></p>
+<p align="center"><em>Tabla 2.2: Caso de uso 1: Riego automático</em></p>
 
 
 | Elemento | Definición |
 | :---- | :---- |
-| Disparador | Se quiere acceder a la instalación con permiso de acceso y con RFID. |
-| Precondiciones | El sistema está encendido La puerta está cerrada, con la  cerradura cerrada. La aplicación está conectada al sistema. El indicador de puerta cerrada está encendido  |
-| Flujo principal | El individuo acerca su tarjeta al lector. El ID de la tarjeta es correcto, el motor abre la cerradura y se notifica con una melodía el acceso habilitado. Además, con un led se notifica la habilitación del acceso. El módulo Wi-Fi comunica a la aplicación el acceso a la instalación, mostrando el estado de la puerta, la identificación del ingresante, la hora y el número de puerta. El individuo cierra la puerta una vez adentro. |
-| Flujos alternativos | a. El individuo usa una tarjeta no habilitada, con lo cual se notifica auditiva y visualmente al usuario y se notifica mediante Wi-Fi que se intentó acceder sin permiso a la instalación.  b. El individuo olvida la puerta abierta, entonces se suena una “alarma” y se notifica al propietario mediante Wi-Fi |
+| **Disparador**          | La app envía una configuración de color, intensidad o fotoperíodo para la tira LED.|                                                                                                                                                                                                                                           
+| **Precondiciones**      | El sistema está encendido. La tira LED está conectada mediante PWM (o protocolo digital si es direccionable). La app está enlazada por BLE. Los parámetros previos están almacenados en Flash. |                                                                                                                                   
+| **Flujo principal**     | El usuario selecciona en la app el modo de iluminación deseado (manual o fotoperíodo). La app envía los parámetros de color e intensidad al microcontrolador. El firmware actualiza las señales PWM (o el comando a la tira direccionable). La iluminación cambia inmediatamente y el sistema confirma la actualización a la app. |
+| **Flujos alternativos** | a. Se pierde la conexión BLE: el sistema mantiene la configuración previa y notifica error. <br> b. La app envía valores fuera de rango: el firmware descarta el comando y envía error a la app. <br> c. La tira LED no responde: el sistema detecta falla eléctrica y emite una notificación a la app.                           |
 
-<p align="center"><em>Tabla 2.3: Caso de uso 2: El usuario quiere acceder con RFID</em></p>
+
+<p align="center"><em>Tabla 2.3: Caso de uso 2: Control de iluminación</em></p>
 
 
 | Elemento | Definición |
-| :---- | :---- |
-| Disparador | Se quiere añadir una nueva tarjeta RFID |
-| Precondiciones | El sistema está encendido La puerta está cerrada, con la  cerradura cerrada. La aplicación está conectada al sistema. El indicador de puerta cerrada está encendido |
-| Flujo principal | Se acerca una tarjeta desconocida al lector RFID. El sistema indica que el intento de acceso es incorrecto. El sistema muestra el ID de la tarjeta e indica si se quiere guardar la tarjeta mediante comunicación Wi-Fi con la aplicación. |
-| Flujos alternativos | a. Se pierde la conexión Wi-Fi. El sistema no puede continuar con el guardado de la tarjeta. Se indica que se perdió la conexión b. Se apaga el sistema. El sistema no puede continuar con el guardado de la tarjeta.  |
+| :---- | :---- |                                                                                                                                                                                                                                    
+| **Disparador**          | La temperatura ambiente medida por el DHT22 supera el umbral configurado o el usuario activa el ventilador desde la app. |                                                                                                                                                                                                                                        
+| **Precondiciones**      | El sistema está encendido. El ventilador está conectado mediante MOSFET y PWM. El sensor DHT22 está operativo. Los umbrales están configurados y guardados en Flash. La app está enlazada por BLE si se utiliza el modo manual. |                                                                                                                                  
+| **Flujo principal**     | El sistema realiza una lectura de temperatura. Si supera el umbral definido, el firmware activa el ventilador y ajusta su velocidad mediante PWM según la temperatura. Si el usuario usa el modo manual, puede activar/desactivar el ventilador o ajustar la velocidad desde la app. El sistema envía a la app el estado del ventilador y las lecturas actuales. |
+| **Flujos alternativos** | a. La temperatura vuelve a valores normales: el ventilador se apaga progresivamente. <br> b. El DHT22 entrega valores inválidos: el ventilador pasa a modo seguro (velocidad media) o permanece apagado según configuración. <br> c. El ventilador falla o no gira (si se mide tac/RPM): el sistema notifica falla a la app.                                     |
 
-<p align="center"><em>Tabla 2.4: Caso de uso 3: El usuario quiere guardar una tarjeta RFID</em></p>
+
+<p align="center"><em>Tabla 2.4: Caso de uso 3: Control del ventilador según temperatura</em></p>
