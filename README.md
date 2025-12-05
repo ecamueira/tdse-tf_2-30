@@ -189,8 +189,8 @@ En las tablas 3.1 a 3.3 se presentan 3 casos de uso para el sistema.
 | Elemento | Definición |
 | :---- | :---- |
 | **Disparador**          | La app envía una configuración de color, intensidad o fotoperíodo para la tira LED.|                                                                                                                                                                                                                                           
-| **Precondiciones**      | El sistema está encendido. La tira LED está conectada mediante PWM (o protocolo digital si es direccionable). La app está enlazada por BLE. Los parámetros previos están almacenados en Flash. |                                                                                                                                   
-| **Flujo principal**     | El usuario selecciona en la app el modo de iluminación deseado (manual o fotoperíodo). La app envía los parámetros de color e intensidad al microcontrolador. El firmware actualiza las señales PWM (o el comando a la tira direccionable). La iluminación cambia inmediatamente y el sistema confirma la actualización a la app. |
+| **Precondiciones**      | El sistema está encendido. La tira LED está conectada mediante PWM. La app está enlazada por BLE. Los parámetros previos están almacenados en Flash. |                                                                                                                                   
+| **Flujo principal**     | El usuario selecciona en la app el modo de iluminación deseado (manual o fotoperíodo). La app envía los parámetros de color e intensidad al microcontrolador. El firmware actualiza las señales PWM. La iluminación cambia inmediatamente y el sistema confirma la actualización a la app. |
 | **Flujos alternativos** | a. Se pierde la conexión BLE: el sistema mantiene la configuración previa y notifica error. <br> b. La app envía valores fuera de rango: el firmware descarta el comando y envía error a la app. <br> c. La tira LED no responde: el sistema detecta falla eléctrica y emite una notificación a la app.                           |
 
 
