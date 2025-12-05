@@ -29,31 +29,11 @@ El objetivo de este proyecto es desarrollar un sistema automatizado de cultivo q
 
 #### **1.2 Proyectos similares**
 
-Se consideran tres tipos de proyectos posibles que cumplen con los objetivos y resultados esperados del proyecto, todos basados en acceso mediante cerradura:
+En base al objetivo se proponen posibles proyectos que requieren el uso de hardware específico y se ponderan los aspectos a tener en cuenta para seleccionar el más adecuado.
 
-1.  Cerradura con RFID, keypad y registro en la nube. 
-
-2. Cerradura con reconocimiento facial y registro en la nube.
-
-3. Cerradura con keypad y registro en la nube.
-
-Para comparar estas alternativas, se tienen en cuenta seis aspectos característicos:
-
-1. Disponibilidad del hardware: Se evalúa si el proyecto es fácilmente implementable con hardware disponible en mercados regionales.
-
-2. Facilidad de acceso: Se comprende por facilidad de acceso al tiempo que le llevaría acceder al edificio a un individuo con permiso de acceso.
-
-3. Seguridad: Se comprende por seguridad a la robustez del sistema frente a posibles intentos fraudulentos de acceso.
-
-4. Tiempo de implementación: Tiempo total que llevará diseñar e implementar el proyecto seleccionado.
-
-5. Costo: El costo total del proyecto.
-
-6. Interés personal
-
-Se decide ponderar los aspectos de la siguiente manera del 1 al 10: Disponibilidad del hardware: 10, Facilidad de acceso: 8, Seguridad: 6, Tiempo de implementación: 8, Costo: 5, Interés personal: 8\. 
-
-La disponibilidad del hardware es fundamental ya que para este proyecto no se busca salir del mercado regional y buscar hardware costoso y que tome tiempo en obtener. En otras palabras, la disponibilidad del hardware tiene influencia sobre otros aspectos como el tiempo y el costo, con lo cual es importante encontrar proyectos que se puedan hacer con hardware disponible. La facilidad de acceso es primordial también porque es el punto de venta del proyecto que se quiere llevar a cabo, se busca que el proyecto se diferencie del resto mediante la comodidad en la hora de acceder. La seguridad se elige con ponderación 6 porque si bien se busca algo seguro, existen varias posibilidades que podrían poner en riesgo la seguridad que no dependen del sistema en sí, sino del individuo. Por ejemplo, si a un individuo le roban la llave de la casa entonces pueden robarle la casa. En resumen, mientras que el mecanismo de seguridad sea intrínsecamente seguro, no nos interesa que la seguridad sea analizada bajo escenarios especiales y poco probables. El tiempo de implementación se elige con un valor de 8 dado que se requiere implementar el proyecto en un periodo de tiempo acotado, con baja flexibilidad para cambios o implementaciones que consuman mucho tiempo. El costo no es tan importante dado que, para este proyecto, se busca la mejor solución a cualquier precio, siempre y mientras que no sea un precio excesivamente grande. Finalmente el interés personal toma particular relevancia dado que se busca realizar un proyecto motivador donde se pueda aprender con interés, valuando ese aspecto con un puntaje de 8.
+Control con monitoreo de humedad del suelo y temperatura y humedad del aire con irrigación de agua y fertilizantes e iluminación personalizada.
+Control con monitoreo de humedad del suelo, temperatura y humedad del aire y calidad de los suelos (Índice de pH) con irrigación de agua y fertilizantes e iluminación personalizada.
+Control con monitoreo de humedad del suelo y temperatura y humedad del aire con irrigación (finamente monitoreada a través de un caudalímetro) de agua y fertilizantes e iluminación personalizada.
 
 La siguiente tabla (Tabla 1.2.1) muestra los valores ponderados asignados a cada proyecto considerado
 
@@ -61,9 +41,9 @@ La siguiente tabla (Tabla 1.2.1) muestra los valores ponderados asignados a cada
         <thead>
             <tr>
                 <th rowspan="2">Proyecto</th>
-                <th colspan="2">Disponibilidad del hardware (9)</th>
-                <th colspan="2">Cerradura solo con keypad</th>
-                <th colspan="2">Cerradura con reconocimiento facial</th>
+                <th colspan="2">Base</th>
+                <th colspan="2">Base + medidor de pH</th>
+                <th colspan="2">Base + medidor de caudal</th>
             </tr>
             <tr>
                 <th>Puntaje</th>
