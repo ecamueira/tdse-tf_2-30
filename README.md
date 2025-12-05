@@ -30,6 +30,7 @@ El objetivo de este proyecto es desarrollar un sistema automatizado de cultivo q
 #### **1.2 Proyectos similares**
 
 En base al objetivo se proponen posibles proyectos que requieren el uso de hardware específico y se ponderan los aspectos a tener en cuenta para seleccionar el más adecuado.
+
 Base: se lo considera a la propuesta a implementar y detallada a continuacion item 1.
 
 1.  Control con monitoreo de humedad del suelo y temperatura y humedad del aire con irrigación de agua y fertilizantes e iluminación personalizada (Base).
