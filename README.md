@@ -3,13 +3,13 @@
  <img src="https://github.com/user-attachments/assets/15600b18-f73b-4ba3-a959-47f0048a1ab6" alt="image2" width="50%">
 
 
-# **Smartlock**
+# **Sistema Automático de Gestión de Cultivos (SAGC)**
 
  
 
-**Autores: Elias Camueira**
+**Autores: Camueira Elias; Cascia Selena; Donadello Nicolas**
 
-**Padrón: 110772**
+**Padrón: 110772; 107946;112007**
 
 **Fecha: 2do cuatrimestre 2025**
 
