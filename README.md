@@ -154,37 +154,25 @@ En conclusión, si bien Argentina cuenta con empresas que producen controladores
 
 | Grupo | ID | Descripción |
 | :---- | :---- | :---- |
-| Acceso | 1.1 | El sistema permitirá el acceso a la instalación mediante RFID |
-|  | 1.2 | El sistema permitirá el acceso a la instalación mediante un teclado matricial |
-|  | 1.3 | En caso de acceso permitido, el  sistema abrirá la puerta durante un periodo de tiempo fijado |
-| Indicadores | 2.1 | El sistema contará con un indicador luminoso para indicar que la puerta está cerrada |
-|  | 2.2 | El sistema contará con un indicador luminoso para indicar que la puerta está abierta |
-|  | 2.3 | El sistema contará con un parlante que indique mediante sonido cuando se abre la puerta |
-|  | 2.4 | El sistema contará con un parlante que indique mediante sonido cuando se introduce un código incorrecto |
-|  | 2.5 | El sistema contará con un parlante que indique mediante sonido cuando se presiona una tecla |
-|  | 2.6 | El sistema notificará con el parlante cuando se deja la puerta abierta |
-|  | 2.7 | El sistema notificará mediante el titileo de leds cuando la puerta se deja abierta o cuando se introduce un código/RFID erróneo |
-|  | 2.8 | El sistema notifica con audio y luz cuando se deja un código sin introducir completamente |
-| Motor | 3.1  | El sistema contará con un motor para abrir y cerrar la cerradura |
-|  | 3.2 | El sistema solo podrá cerrar la puerta cuando esta se halla contra el marco |
-| Comunicación Audio  | 4.1 | El sistema deberá contar con un parlante para transmitir señales de audio |
-|  | 4.2 | El sistema deberá contar con un micrófono para recibir señales de audio |
-| Comunicación Wi-Fi | 5.1 | El sistema se comunicará mediante Wi-Fi con la aplicación de celular |
-|  | 5.2 | El sistema deberá enviar a la aplicación la información de acceso a la instalación |
-|  | 5.3 | El sistema deberá enviar a la aplicación la información de acceso denegado a la instalación |
-|  | 5.4 | En caso de lectura RFID, el sistema deberá comunicar la lectura de RFIDs desconocidos, junto con su ID (para poder guardarlo posteriormente) |
-|  | 5.4 | El sistema deberá comunicarle a la aplicación el estado de la puerta y el numero de puerta |
-|  | 5.5 | El sistema deberá poder recibir señales de audio de la aplicación |
-|  | 5.6 | El sistema deberá poder transmitir señales de audio a la aplicación |
-| Aplicación | 6.1 | La aplicación tendrá la base de datos de los individuos habilitados con sus IDs |
-|  | 6.2 | La aplicación deberá permitirle al usuario configurar los permisos de acceso de los individuos |
-|  | 6.3 | La aplicación deberá poder mostrar la información de los accesos e intentos de acceso |
-|  | 6.4 | La aplicación deberá poder controlar manualmente la apertura o cerradura de la puerta |
-|  | 6.5 | La aplicación deberá permitirle al usuario configurar añadir nuevos individuos a la base de datos mediante codigo o RFID |
-|  | 6.6 | La aplicación deberá mostrarle al usuario el estado de la puerta |
-| Interruptores/ Botones | 7.1 | El sistema contará con botones para abrir o cerrar la puerta de forma manual |
-|  | 7.2 | El sistema contará con un botón de timbre |
-| Sensores | 8.1 | El sistema contará con un sensor magnético que detectará cuando la puerta se halla contra el marco |
+| Sensores ambientales | 1.1 | El sistema contará con un sensor de temperatura y humedad ambiente (ej. DHT22 / SHT31) para supervisar condiciones del cultivo. |
+|  | 1.2 | El sistema contará con un sensor de humedad de suelo (preferentemente capacitivo) por maceta/zona para gobernar el riego automático. |
+|  | 1.3 | El sistema realizará lecturas periódicas de los sensores a una frecuencia configurable y enviará valores a la app. |
+| Actuadores — Riego | 2.1 | El sistema controlará una bomba para activar riego en función del umbral de humedad de suelo configurado. |
+|  | 2.2 | El riego será interrumpido automáticamente si se detecta falta de agua (sensor de nivel) o marcha en seco (protección). |
+| Actuadores — Iluminación | 2.3 | El sistema contará con una tira LED RGB (analógica o direccionable) para iluminación artificial del cultivo, controlada por PWM. |
+|  | 2.4 | La intensidad y el espectro (combinación R/G/B) serán configurables desde la aplicación para definir fotoperíodos y etapas (crecimiento / fructificación). |
+| Actuadores — Ventilación | 2.5 | El sistema contará con un ventilador tipo PC (cooler) controlable por PWM o por MOSFET, para renovación de aire y control térmico local. |
+|  | 2.6 | El ventilador podrá operar en modos definidos por firmware (p. ej. ON/OFF, control proporcional por temperatura/humedad), seleccionables desde la app. |
+|  | 2.7 | Si se desea, el sistema leerá la señal tach del ventilador para medir RPM y validar que el ventilador está funcionando. |
+| Almacenamiento | 3.1 | La configuración del sistema (umbrales, fotoperíodos, parámetros) se persistirá en la **Flash interna** del microcontrolador. |
+|  | 3.2 | El sistema recuperará la configuración guardada al iniciar y validará la integridad de la misma. |
+| Interfaz/App | 4.1 | Toda la interacción de usuario, notificaciones y alarmas se realizará mediante la aplicación móvil conectada por BLE. |
+|  | 4.2 | La app permitirá configurar umbrales, iniciar riegos manuales, programar fotoperíodos y controlar el ventilador. |
+|  | 4.3 | El sistema enviará a la app lecturas periódicas y eventos críticos (ej. falta de agua, sensor desconectado, fallo de ventilador). |
+| Operación segura | 5.1 | En reinicio o condición insegura, el sistema deberá iniciar con todos los actuadores en estado OFF. |
+|  | 5.2 | El firmware deberá implementar una máquina de estados y manejo de errores para evitar comportamientos indeseados. |
+| Mantenibilidad y expansión | 6.1 | El diseño permitirá la incorporación futura de sensores adicionales (pH, caudalímetro, CO₂) sin cambios estructurales. |
+|  | 6.2 | Se documentará el procedimiento de mantenimiento del ventilador (limpieza) y de los sensores (calibración / reemplazo). |
 
 <p align="center"><em>Tabla 2.1: Requisitos del proyecto</em></p>
 
