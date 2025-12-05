@@ -31,9 +31,16 @@ El objetivo de este proyecto es desarrollar un sistema automatizado de cultivo q
 
 En base al objetivo se proponen posibles proyectos que requieren el uso de hardware específico y se ponderan los aspectos a tener en cuenta para seleccionar el más adecuado.
 
-Control con monitoreo de humedad del suelo y temperatura y humedad del aire con irrigación de agua y fertilizantes e iluminación personalizada.
-Control con monitoreo de humedad del suelo, temperatura y humedad del aire y calidad de los suelos (Índice de pH) con irrigación de agua y fertilizantes e iluminación personalizada.
-Control con monitoreo de humedad del suelo y temperatura y humedad del aire con irrigación (finamente monitoreada a través de un caudalímetro) de agua y fertilizantes e iluminación personalizada.
+Control con monitoreo de humedad del suelo y temperatura y humedad del aire con irrigación de agua y fertilizantes e iluminación personalizada (base).
+Control con monitoreo de humedad del suelo, temperatura y humedad del aire y calidad de los suelos (Índice de pH) con irrigación de agua y fertilizantes e iluminación personalizada (base+ medidor de pH).
+Control con monitoreo de humedad del suelo y temperatura y humedad del aire con irrigación (finamente monitoreada a través de un caudalímetro) de agua y fertilizantes e iluminación personalizada (base+medidor de caudal).
+
+Para comparar estas alternativas, se tienen en cuenta seis aspectos característicos, los cuales se ponderan del 1 al 10:
+Disponibilidad del hardware (9): Se evalúa si el proyecto puede implementarse utilizando hardware que se consiga fácilmente en el mercado regional, sin necesidad de importación o tiempos de envío extensos.
+Impacto en el proyecto (8): Se pondera cuánto aporta a la funcionalidad y control del crecimiento del cultivo.
+Costo (8): Se evalúa el costo total del hardware requerido para cada opción.
+Dificultad técnica / Viabilidad (10): Se contempla el tiempo requerido y la complejidad de implementación, teniendo en cuenta los conocimientos disponibles.
+Interés personal del equipo (7). Se pondera la motivación e interés del equipo en implementar cada alternativa.
 
 La siguiente tabla (Tabla 1.2.1) muestra los valores ponderados asignados a cada proyecto considerado
 
