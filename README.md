@@ -1,6 +1,6 @@
 
 
- <img src="https://github.com/user-attachments/assets/15600b18-f73b-4ba3-a959-47f0048a1ab6" alt="image2" width="50%">
+ <img src="diagrama_en_bloques.png" alt="image2" width="50%">
 
 
 # **Sistema Automático de Gestión de Cultivos (SAGC)**
