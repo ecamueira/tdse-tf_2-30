@@ -13,7 +13,7 @@
 
 **Fecha: 2do cuatrimestre 2025**
 
-**Fecha de entrega estimada: 18/02/2026**
+**Fecha de entrega: 18/02/2026**
 
  
 
