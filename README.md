@@ -31,9 +31,9 @@ El objetivo de este proyecto es desarrollar un sistema automatizado de cultivo q
 
 En base al objetivo se proponen posibles proyectos que requieren el uso de hardware específico y se ponderan los aspectos a tener en cuenta para seleccionar el más adecuado.
 
-1. Base: Control con monitoreo de humedad del suelo y temperatura y humedad del aire con irrigación de agua y fertilizantes e iluminación personalizada.
-2. Base + caudalimetro: Control con monitoreo de humedad del suelo y temperatura y humedad del aire con irrigación (finamente monitoreada a través de un caudalímetro) de agua y fertilizantes e iluminación personalizada.
-3. Base + medidor de pH: Control con monitoreo de humedad del suelo, temperatura y humedad del aire y calidad de los suelos (Índice de pH) con irrigación de agua y fertilizantes e iluminación personalizada.
+1. **Base:** Control con monitoreo de humedad del suelo y temperatura y humedad del aire con irrigación de agua y fertilizantes e iluminación personalizada.
+2. **Base + caudalimetro:** Control con monitoreo de humedad del suelo y temperatura y humedad del aire con irrigación (finamente monitoreada a través de un caudalímetro) de agua y fertilizantes e iluminación personalizada.
+3. **Base + medidor de pH:** Control con monitoreo de humedad del suelo, temperatura y humedad del aire y calidad de los suelos (Índice de pH) con irrigación de agua y fertilizantes e iluminación personalizada.
 
 Para comparar estas alternativas, se tienen en cuenta seis aspectos característicos, los cuales se ponderan del 1 al 10:
 1.  **Disponibilidad del hardware (9):** Se evalúa si el proyecto puede implementarse utilizando hardware que se consiga fácilmente en el mercado regional, sin necesidad de importación o tiempos de envío extensos.
@@ -110,11 +110,11 @@ La siguiente tabla (Tabla 1.2.1) muestra los valores ponderados asignados a cada
         <tr class="highlight-green">
             <td><strong>Puntaje Total</strong></td>
             <td>-</td>
-            <td><strong>362</strong></td>
+            <td><strong>364</strong></td>
             <td>-</td>
-            <td>278</td>
+            <td>312</td>
             <td>-</td>
-            <td class="highlight-red">173</td>
+            <td class="highlight-red">225</td>
         </tr>
     </tbody>
 </table>
