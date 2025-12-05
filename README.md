@@ -7,7 +7,7 @@
 
  
 
-**Autores: Camueira Elias; Cascia Selena; Donadello Nicolas**
+**Autores: Camueira Elias; Cascia Serena; Donadello Nicolas**
 
 **Padrón: 110772; 107946;112007**
 
