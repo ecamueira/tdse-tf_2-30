@@ -174,7 +174,7 @@ En conclusión, si bien Argentina cuenta con empresas que producen controladores
 
 <p align="center"><em>Tabla 2: Requisitos del proyecto</em></p>
 
-En las tablas 2.2 a 2.4 se presentan 3 casos de uso para el sistema.
+En las tablas 3.1 a 3.3 se presentan 3 casos de uso para el sistema.
 
 | Elemento | Definición |
 | :---- | :---- |
