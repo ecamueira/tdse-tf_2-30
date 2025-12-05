@@ -64,10 +64,10 @@ La siguiente tabla (Tabla 1.2.1) muestra los valores ponderados asignados a cada
     <tbody>
         <tr class="header-row">
             <td align="center">Disponibilidad de Hardware <br>(peso: 9)</td>
-            <td>9</td>
-            <td>81</td>
-            <td>7</td>
-            <td>63</td>
+            <td>10</td>
+            <td>90</td>
+            <td>10</td>
+            <td>90</td>
             <td>4</td>
             <td>36</td>
         </tr>
@@ -77,8 +77,8 @@ La siguiente tabla (Tabla 1.2.1) muestra los valores ponderados asignados a cada
             <td>64</td>
             <td>5</td>
             <td>40</td>
-            <td>6</td>
-            <td>48</td>
+            <td>9</td>
+            <td>72</td>
         </tr>
         <tr class="header-row">
             <td align="center">Costo (peso: 8)</td>
@@ -100,12 +100,12 @@ La siguiente tabla (Tabla 1.2.1) muestra los valores ponderados asignados a cada
         </tr>
         <tr class="header-row">
             <td align="center">Interés personal <br>(peso: 7)</td>
+            <td>8</td>
+            <td>56</td>
+            <td>8</td>
+            <td>56</td>
             <td>9</td>
             <td>63</td>
-            <td>7</td>
-            <td>49</td>
-            <td>5</td>
-            <td>35</td>
         </tr>
         <tr class="highlight-green">
             <td><strong>Puntaje Total</strong></td>
