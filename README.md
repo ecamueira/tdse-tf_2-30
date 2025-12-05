@@ -118,7 +118,7 @@ La siguiente tabla (Tabla 1.2.1) muestra los valores ponderados asignados a cada
         </tr>
     </tbody>
 </table>
-<p align="center"><em>Tabla X.X.X: Comparación de alternativas de proyecto</em></p>
+<p align="center"><em>Tabla 1: Comparación de alternativas de proyecto</em></p>
 
 #### **1.3 Selección de proyecto**
 
