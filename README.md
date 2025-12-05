@@ -154,16 +154,17 @@ En conclusión, si bien Argentina cuenta con empresas que producen controladores
 
 | Grupo | ID | Descripción |
 | :---- | :---- | :---- |
-| Sensores ambientales | 1.1 | El sistema contará con un sensor de temperatura y humedad ambiente (ej. DHT22 / SHT31) para supervisar condiciones del cultivo. |
+| Sensores ambientales | 1.1 | El sistema contará con un sensor de temperatura y humedad ambiente (DHT22) para supervisar condiciones del cultivo. |
 |  | 1.2 | El sistema contará con un sensor de humedad de suelo (preferentemente capacitivo) por maceta/zona para gobernar el riego automático. |
 |  | 1.3 | El sistema realizará lecturas periódicas de los sensores a una frecuencia configurable y enviará valores a la app. |
 | Actuadores — Riego | 2.1 | El sistema controlará una bomba para activar riego en función del umbral de humedad de suelo configurado. |
-|  | 2.2 | El riego será interrumpido automáticamente si se detecta falta de agua (sensor de nivel) o marcha en seco (protección). |
-| Actuadores — Iluminación | 2.3 | El sistema contará con una tira LED RGB (analógica o direccionable) para iluminación artificial del cultivo, controlada por PWM. |
-|  | 2.4 | La intensidad y el espectro (combinación R/G/B) serán configurables desde la aplicación para definir fotoperíodos y etapas (crecimiento / fructificación). |
-| Actuadores — Ventilación | 2.5 | El sistema contará con un ventilador tipo PC (cooler) controlable por PWM y por MOSFET de ser necesario, para renovación de aire y control térmico local. |
-|  | 2.6 | El ventilador podrá operar en modos definidos por firmware (p. ej. ON/OFF, control proporcional por temperatura/humedad), seleccionables desde la app. |
-|  | 2.7 | Si se desea, el sistema leerá la señal tach del ventilador para medir RPM y validar que el ventilador está funcionando. |
+|  | 2.2 | El sistema controlará una bomba para activar la fertilización líquida en función del tiempo o de la cantidad de riegos de agua efectuados, lo que ocurra primero.|
+|  | 2.3 | El riego será interrumpido automáticamente si se detecta falta de agua (sensor de nivel de tanque) o marcha en seco (protección). |
+| Actuadores — Iluminación | 2.4 | El sistema contará con una tira LED RGB (analógica o direccionable) para iluminación artificial del cultivo, controlada por PWM. |
+|  | 2.5 | La intensidad y el espectro (combinación R/G/B) serán configurables desde la aplicación para definir fotoperíodos y etapas (crecimiento / fructificación). |
+| Actuadores — Ventilación | 2.6 | El sistema contará con un ventilador tipo PC (cooler) controlable por PWM y por MOSFET de ser necesario, para renovación de aire y control térmico local. |
+|  | 2.7 | El ventilador podrá operar en modos definidos por firmware (p. ej. ON/OFF, control proporcional por temperatura/humedad), seleccionables desde la app. |
+|  | 2.8 | Si se desea, el sistema leerá la señal tach del ventilador para medir RPM y validar que el ventilador está funcionando. |
 | Almacenamiento | 3.1 | La configuración del sistema (umbrales, fotoperíodos, parámetros) se persistirá en la **Flash interna** del microcontrolador. |
 |  | 3.2 | El sistema recuperará la configuración guardada al iniciar y validará la integridad de la misma. |
 | Interfaz/App | 4.1 | Toda la interacción de usuario, notificaciones y alarmas se realizará mediante la aplicación móvil conectada por BLE. |
@@ -171,10 +172,8 @@ En conclusión, si bien Argentina cuenta con empresas que producen controladores
 |  | 4.3 | El sistema enviará a la app lecturas periódicas y eventos críticos (ej. falta de agua, sensor desconectado, fallo de ventilador). |
 | Operación segura | 5.1 | En reinicio o condición insegura, el sistema deberá iniciar con todos los actuadores en estado OFF. |
 |  | 5.2 | El firmware deberá implementar una máquina de estados y manejo de errores para evitar comportamientos indeseados. |
-| Mantenibilidad y expansión | 6.1 | El diseño permitirá la incorporación futura de sensores adicionales (pH, caudalímetro, CO₂) sin cambios estructurales. |
-|  | 6.2 | Se documentará el procedimiento de mantenimiento del ventilador (limpieza) y de los sensores (calibración / reemplazo). |
 
-<p align="center"><em>Tabla 2.1: Requisitos del proyecto</em></p>
+<p align="center"><em>Tabla 2: Requisitos del proyecto</em></p>
 
 En las tablas 2.2 a 2.4 se presentan 3 casos de uso para el sistema.
 
