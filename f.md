@@ -389,6 +389,26 @@ La implementación física del hardware, diseñada para garantizar robustez y se
   <a name="fig:leds_trasera"></a><i>Figura 19: Vista posterior sensores.</i>
 </div>
 
+<div align="center">
+  <table border="0" style="border-collapse: collapse; border: none; background: transparent;">
+    <tr>
+      <td align="center" style="border: none; padding: 10px; vertical-align: top; width: 50%;">
+        <img src="IMagenes/leds%20frente.jpeg" width="100%" />
+        <br><br>
+        <a name="fig:esquema-frente"></a>
+        <i>Figura 18: Vista frontal leds.</i>
+      </td>
+      <td align="center" style="border: none; padding: 10px; vertical-align: top; width: 50%;">
+        <img src="IMagenes/trasera%20leds.jpeg" width="100%" />
+        <br><br>
+        <a name="fig:esquema-trasera"></a>
+        <i>Figura 19: Vista posterior leds.</i>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
 ## 3.3. Funcionamiento de software.
 
 El sistema consta de un programa principal denominado $app.c$. Este se encarga de ejecutar las tareas una por una en menos de 1ms.
