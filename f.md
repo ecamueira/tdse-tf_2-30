@@ -345,7 +345,7 @@ La implementación física del hardware, diseñada para garantizar robustez y se
 
 <div align="center">
   <img src="IMagenes/bomba%20cooler%20frente.jpeg" width="42%" />
-  <img src="IMagenes/bomba%20cooler%20trasero.jpeg" width="38%" />
+  <img src="IMagenes/bomba%20cooler%20trasero.jpeg" width="39%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 15: Placa de bomba y cooler. Izquierda: Vista frontal. Derecha: Vista posterior.</i>
