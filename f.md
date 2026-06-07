@@ -169,7 +169,7 @@ Este Microcontrolador está equipado con una CPU ARM Cortex-M3, que funciona has
 Se utilizó el Módulo embebido que transmite y recibe información por Bluetooth. Dicho componente se comunicó con el microcontrolador a través de una interfaz UART.
 
 <div align="center">
-  <img src="img_dispositivos/modulo_BLE.jpg" width="40%" />
+  <img src="img_dispositivos/modulo_BLE.jpg" width="30%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 2: Modulo de BLE.</i>
@@ -179,7 +179,7 @@ Se utilizó el Módulo embebido que transmite y recibe información por Bluetoot
 El módulo de Relay de 2 Canales de lógica invertida se utilizó para controlar la corriente de las bombas, actuando como un interruptor que responde a una señal enviada a través de los pines GPIO.
 
 <div align="center">
-  <img src="img_dispositivos/modulo_rele.jpg" width="40%" />
+  <img src="img_dispositivos/modulo_rele.jpg" width="30%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 3: Modulo relay..</i>
