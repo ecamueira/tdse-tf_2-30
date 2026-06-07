@@ -269,6 +269,8 @@ En la Figura 9 se muestra el diagrama en bloques del sistema con los principales
 ### 3.2.1. Diseño de circuitos y módulos
 Dado el esquema general del trabajo, se presenta la asignación de pines para la conexión de todos los módulos en la tabla 5.
 
+<div align="center">
+
 | PIN | USO |
 | :--- | :--- |
 | PA0 | Humedad de suelo |
@@ -285,6 +287,8 @@ Dado el esquema general del trabajo, se presenta la asignación de pines para la
 | PC1 | Fertilización |
 | PC10 | BLE RX |
 | PC11 | BLE TX |
+
+</div>
 <p align="center"><em>Tabla 5: PINOUT del sistema.</em></p>
 
 Además de los módulos externos descriptos en la sección de descripción de módulos externos, se diseñaron dos módulos para poder implementar correctamente el sistema de iluminación dinámica y el sistema de riego.
