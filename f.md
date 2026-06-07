@@ -258,10 +258,10 @@ En esta sección se presenta el desarrollo para poder elaborar el trabajo. Se pr
 En la Figura 9 se muestra el diagrama en bloques del sistema con los principales módulos del proyecto y las funciones del microcontrolador que las relaciona entre sí.
 
 <div align="center">
-  <img src="IMagenes/EsquemaTDSE.png" width="80%" />
+  <img src="img_dispositivos/modulo_fuente_cc.png" width="40%" style="transform: rotate(90deg); margin: 40px 0;" />
   <br>
   <a name="fig:esquema"></a>
-  <i>Figura 9: Esquema del diseño.</i>
+  <i>Figura 9: Modulo fuente 12 V.</i>
 </div>
 
 ## 3.2. Diseño de circuitos e implementación
