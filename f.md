@@ -380,53 +380,13 @@ La implementación física del hardware, diseñada para garantizar robustez y se
 </div>
 
 <div align="center">
-  <img src="IMagenes/leds%20frente.jpeg" width="42%" style="margin-right: 5px;" />
-  <img src="IMagenes/trasera%20leds.jpeg" width="39%" style="margin-left: 5px;" />
-  <br><br>
-  
-  <a name="fig:leds_frente"></a><i>Figura 18: Placa de LEDs, vista frontal.</i>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a name="fig:leds_trasera"></a><i>Figura 19: Vista posterior sensores.</i>
+  <img src="IMagenes/leds%20frente.jpeg" width="42%" style="margin-right: 10px;" />
+  <img src="IMagenes/trasera%20leds.jpeg" width="39%" />
+  <br>
+  <a name="fig:esquema"></a>
+  <i>Figura 18: Placa de LEDs. Izquierda: Vista frontal. Derecha: Vista posterior.</i>
 </div>
 
-<div align="center">
-  <table border="0" style="border-collapse: collapse; border: none; background: transparent;">
-    <tr>
-      <td align="center" style="border: none; padding: 10px; vertical-align: top; width: 50%;">
-        <img src="IMagenes/leds%20frente.jpeg" width="100%" />
-        <br><br>
-        <a name="fig:esquema-frente"></a>
-        <i>Figura 18: Vista frontal leds.</i>
-      </td>
-      <td align="center" style="border: none; padding: 10px; vertical-align: top; width: 50%;">
-        <img src="IMagenes/trasera%20leds.jpeg" width="80%" />
-        <br><br>
-        <a name="fig:esquema-trasera"></a>
-        <i>Figura 19: Vista posterior leds.</i>
-      </td>
-    </tr>
-  </table>
-</div>
-
-
-<div align="center">
-  <table style="border: none !important; border-collapse: collapse !important; background: transparent !important; margin: 0; padding: 0;">
-    <tr style="border: none !important; background: transparent !important;">
-      <td align="center" style="border: none !important; background: transparent !important; padding: 10px; vertical-align: top; width: 50%;">
-        <img src="IMagenes/leds%20frente.jpeg" width="100%" />
-        <br><br>
-        <a name="fig:esquema-frente"></a>
-        <i>Figura 18: Vista frontal leds.</i>
-      </td>
-      <td align="center" style="border: none !important; background: transparent !important; padding: 10px; vertical-align: top; width: 50%;">
-        <img src="IMagenes/trasera%20leds.jpeg" width="60%" />
-        <br><br>
-        <a name="fig:esquema-trasera"></a>
-        <i>Figura 19: Vista posterior leds.</i>
-      </td>
-    </tr>
-  </table>
-</div>
 
 
 ## 3.3. Funcionamiento de software.
