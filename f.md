@@ -242,7 +242,7 @@ Este sensor mide temperaturas desde -40°C a 80°C y porcentaje de humedad ambie
 Para la alimentación del sistema, se utilizó una fuente de corriente continua regulada de 12V y 10A alimentada por corriente de red.
 
 <div align="center">
-  <img src="img_dispositivos/modulo_fuente_cc.png" width="30%" style="transform: rotate(270deg); margin: 40px 0;" />
+  <img src="img_dispositivos/modulo_fuente_cc.png" width="30%" style="transform: rotate(90deg)" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 9: Modulo fuente 12 V.</i>
@@ -340,8 +340,6 @@ La implementación física del hardware, diseñada para garantizar robustez y se
   <a name="fig:esquema"></a>
   <i>Figura 13: Placa general. Izquierda: Vista frontal. Derecha: Vista posterior.</i>
 </div>
-
-
 
 <div align="center">
   <img src="IMagenes/bomba%20cooler%20frente.jpeg" width="42%" />
@@ -577,7 +575,7 @@ Según los reportes, el código utiliza el 43,15% de la memoria Flash (55,23 KB)
 
 ## 4.7. Cumplimiento de requisitos.
 
-A lo largo del desarrollo, varios requisitos fueron cambiando de forma. Estos cambios se pueden ver en la siguiente tabla 10.
+A lo largo del desarrollo, varios requisitos fueron cambiando de forma. Estos cambios se pueden ver en la Tabla 10.
 
 | Grupo | ID | Descripción |
 | :--- | :---: | :--- |
