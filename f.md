@@ -220,7 +220,7 @@ Este sensor mide el nivel de agua en un tanque de forma resistiva y se utilizó 
 Este sensor mide el nivel de humedad en una maceta de forma capacitiva y, en este trabajo, se utilizó para enviar una señal analógica representativa de la permitividad eléctrica del suelo, la cual se procesó mediante el conversor analógico-digital (ADC) del microcontrolador.
 
 <div align="center">
-  <img src="img_dispositivos/modulo_HW-390.png" width="50%" />
+  <img src="img_dispositivos/modulo_HW-390.png" width="50%" style="transform: rotate(90deg);" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 7: Modulo HW-390.</i>
