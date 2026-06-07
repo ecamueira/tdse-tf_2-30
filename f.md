@@ -334,7 +334,7 @@ La implementación física del hardware, diseñada para garantizar robustez y se
 
 **Módulo general de la placa de hardware diseñada:**
 <div align="center">
-  <img src="IMagenes/placa%20general%20frente.jpeg" width="40%" />
+  <img src="IMagenes/placa%20general%20frente.jpeg" width="39.5%" />
   <img src="IMagenes/placa%20general%20trasera.jpeg" width="42%" />
   <br>
   <a name="fig:esquema"></a>
