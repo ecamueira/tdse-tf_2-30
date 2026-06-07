@@ -159,7 +159,7 @@ Para la realización de este trabajo se seleccionaron una serie de módulos ya d
 Este Microcontrolador está equipado con una CPU ARM Cortex-M3, que funciona hasta una frecuencia de 72 MHz. En este trabajo, mediante este componente se ejecutó y controló el flujo de tareas a realizar.
 
 <div align="center">
-  <img src="img_dispositivos/placa_nucleo_f103rb.jpg" width="50%" />
+  <img src="img_dispositivos/placa_nucleo_f103rb.jpg" width="40%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 1: Placa nucleo F103Rb.</i>
@@ -169,7 +169,7 @@ Este Microcontrolador está equipado con una CPU ARM Cortex-M3, que funciona has
 Se utilizó el Módulo embebido que transmite y recibe información por Bluetooth. Dicho componente se comunicó con el microcontrolador a través de una interfaz UART.
 
 <div align="center">
-  <img src="img_dispositivos/modulo_BLE.jpg" width="50%" />
+  <img src="img_dispositivos/modulo_BLE.jpg" width="40%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 2: Modulo de BLE.</i>
@@ -179,7 +179,7 @@ Se utilizó el Módulo embebido que transmite y recibe información por Bluetoot
 El módulo de Relay de 2 Canales de lógica invertida se utilizó para controlar la corriente de las bombas, actuando como un interruptor que responde a una señal enviada a través de los pines GPIO.
 
 <div align="center">
-  <img src="img_dispositivos/modulo_rele.jpg" width="50%" />
+  <img src="img_dispositivos/modulo_rele.jpg" width="40%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 3: Modulo relay..</i>
@@ -189,7 +189,7 @@ El módulo de Relay de 2 Canales de lógica invertida se utilizó para controlar
 Se utilizó una Memoria EEPROM de 256 Kbits, organizada en 32,768 palabras de 8 bits cada una, que se utiliza para almacenar datos de manera no volátil, es decir, que no se borran al apagar el dispositivo, y funciona a través de la interfaz de comunicación I2C.
 
 <div align="center">
-  <img src="img_dispositivos/modulo_eprom.jpg" width="50%" />
+  <img src="img_dispositivos/modulo_eprom.jpg" width="40%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 4: Modulo EEPROM.</i>
@@ -199,7 +199,7 @@ Se utilizó una Memoria EEPROM de 256 Kbits, organizada en 32,768 palabras de 8 
 En este trabajo, se utilizó esta herramienta de desarrollo de APP móvil para la comunicación sencilla por BLE.
 
 <div align="center">
-  <img src="img_dispositivos/int_app.png" width="50%" />
+  <img src="img_dispositivos/int_app.png" width="40%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 5: Interfaz de usuario de la app movil.</i>
@@ -209,7 +209,7 @@ En este trabajo, se utilizó esta herramienta de desarrollo de APP móvil para l
 Este sensor mide el nivel de agua en un tanque de forma resistiva y se utilizó para enviar una señal analógica a partir de eso, la cual se procesó mediante el conversor analógico-digital (ADC) del microcontrolador.
 
 <div align="center">
-  <img src="img_dispositivos/modulo_HW-038.jpg" width="50%" />
+  <img src="img_dispositivos/modulo_HW-038.jpg" width="40%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 6: Modulo HW-038.</i>
@@ -220,7 +220,7 @@ Este sensor mide el nivel de agua en un tanque de forma resistiva y se utilizó 
 Este sensor mide el nivel de humedad en una maceta de forma capacitiva y, en este trabajo, se utilizó para enviar una señal analógica representativa de la permitividad eléctrica del suelo, la cual se procesó mediante el conversor analógico-digital (ADC) del microcontrolador.
 
 <div align="center">
-  <img src="img_dispositivos/modulo_HW-390.png" width="50%" style="transform: rotate(90deg);" />
+  <img src="img_dispositivos/modulo_HW-390.png" width="40%" style="transform: rotate(90deg);" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 7: Modulo HW-390.</i>
@@ -231,7 +231,7 @@ Este sensor mide el nivel de humedad en una maceta de forma capacitiva y, en est
 Este sensor mide temperaturas desde -40°C a 80°C y porcentaje de humedad ambiente. En este trabajo, se utilizó para transmitir dicha información de forma digital mediante el protocolo I2C, con el fin de controlar el entorno cerrado del sistema.
 
 <div align="center">
-  <img src="img_dispositivos/modulo_ht10.jpg" width="50%" />
+  <img src="img_dispositivos/modulo_ht10.jpg" width="40%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 8: Modulo AHT10.</i>
@@ -242,7 +242,7 @@ Este sensor mide temperaturas desde -40°C a 80°C y porcentaje de humedad ambie
 Para la alimentación del sistema, se utilizó una fuente de corriente continua regulada de 12V y 10A alimentada por corriente de red.
 
 <div align="center">
-  <img src="img_dispositivos/modulo_fuente_cc.png" width="30%" style="transform: rotate(90deg); margin: 40px 0;" />
+  <img src="img_dispositivos/modulo_fuente_cc.png" width="20%" style="transform: rotate(90deg); margin: 40px 0;" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 9: Modulo fuente 12 V.</i>
