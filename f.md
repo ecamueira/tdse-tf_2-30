@@ -352,8 +352,8 @@ La implementación física del hardware, diseñada para garantizar robustez y se
 </div>
 
 <div align="center">
-  <img src="IMagenes/frente%20sensores%20analog.jpeg" width="39%" />
-  <img src="IMagenes/sensores%20trasera.jpeg" width="42%" />
+  <img src="IMagenes/frente%20sensores%20analog.jpeg" width="42%" />
+  <img src="IMagenes/sensores%20trasera.jpeg" width="40%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 17: Placa de sensores. Izquierda: Vista frontal. Derecha: Vista posterior.</i>
