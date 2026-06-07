@@ -381,7 +381,7 @@ La implementación física del hardware, diseñada para garantizar robustez y se
 
 <div align="center">
   <img src="IMagenes/leds%20frente.jpeg" width="42%" />
-  <img src="IMagenes/trasera%20leds.jpeg" width="40%" />
+  <img src="IMagenes/trasera%20leds.jpeg" width="39%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 18: Placa de LEDs. Izquierda: Vista frontal. Derecha: Vista posterior.</i>
