@@ -380,7 +380,7 @@ La implementación física del hardware, diseñada para garantizar robustez y se
 </div>
 
 <div align="center">
-  <img src="IMagenes/leds%20frente.jpeg" width="42%" style="margin-right: 10px;" />
+  <img src="IMagenes/leds%20frente.jpeg" width="38%" />
   <img src="IMagenes/trasera%20leds.jpeg" width="42%" />
   <br>
   <a name="fig:esquema"></a>
