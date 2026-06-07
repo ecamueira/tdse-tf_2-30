@@ -399,7 +399,7 @@ La implementación física del hardware, diseñada para garantizar robustez y se
         <i>Figura 18: Vista frontal leds.</i>
       </td>
       <td align="center" style="border: none; padding: 10px; vertical-align: top; width: 50%;">
-        <img src="IMagenes/trasera%20leds.jpeg" width="100%" />
+        <img src="IMagenes/trasera%20leds.jpeg" width="80%" />
         <br><br>
         <a name="fig:esquema-trasera"></a>
         <i>Figura 19: Vista posterior leds.</i>
