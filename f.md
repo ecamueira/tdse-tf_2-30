@@ -379,19 +379,24 @@ La implementación física del hardware, diseñada para garantizar robustez y se
   <i>Figura 17: Vista posterior sensores.</i>
 </div>
 
-**Módulo de control de leds:**
 <div align="center">
-  <img src="IMagenes/leds%20frente.jpeg" width="80%" />
-  <br>
-  <a name="fig:esquema"></a>
-  <i>Figura 18: Vista frontal leds.</i>
-</div>
-
-<div align="center">
-  <img src="IMagenes/trasera%20leds.jpeg" width="80%" />
-  <br>
-  <a name="fig:esquema"></a>
-  <i>Figura 19: Vista posterior leds.</i>
+  <table border="0" style="width: 100%; text-align: center; border-collapse: collapse;">
+    <tr>
+      <td style="width: 50%; vertical-align: top; border: none;">
+        <img src="IMagenes/leds%20frente.jpeg" width="90%" />
+        <br>
+        <a name="fig:esquema_frente"></a>
+        <i>Figura 18: Vista frontal leds.</i>
+      </td>
+      
+      <td style="width: 50%; vertical-align: top; border: none;">
+        <img src="IMagenes/trasera%20leds.jpeg" width="90%" />
+        <br>
+        <a name="fig:esquema_trasera"></a>
+        <i>Figura 19: Vista posterior leds.</i>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ## 3.3. Funcionamiento de software.
