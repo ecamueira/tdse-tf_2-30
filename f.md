@@ -159,7 +159,7 @@ Para la realización de este trabajo se seleccionaron una serie de módulos ya d
 Este Microcontrolador está equipado con una CPU ARM Cortex-M3, que funciona hasta una frecuencia de 72 MHz. En este trabajo, mediante este componente se ejecutó y controló el flujo de tareas a realizar.
 
 <div align="center">
-  <img src="img_dispositivos/placa_nucleo_f103rb.jpg" width="40%" />
+  <img src="img_dispositivos/placa_nucleo_f103rb.jpg" width="30%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 1: Placa nucleo F103Rb.</i>
