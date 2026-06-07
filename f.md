@@ -242,7 +242,7 @@ Este sensor mide temperaturas desde -40°C a 80°C y porcentaje de humedad ambie
 Para la alimentación del sistema, se utilizó una fuente de corriente continua regulada de 12V y 10A alimentada por corriente de red.
 
 <div align="center">
-  <img src="img_dispositivos/modulo_fuente_cc.png" width="15%" style="transform: rotate(90deg); margin: 40px 0;" />
+  <img src="img_dispositivos/modulo_fuente_cc.png" width="15%/>
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 9: Modulo fuente 12 V.</i>
