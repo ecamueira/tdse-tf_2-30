@@ -334,53 +334,33 @@ La implementación física del hardware, diseñada para garantizar robustez y se
 
 **Módulo general de la placa de hardware diseñada:**
 <div align="center">
-  <img src="IMagenes/placa%20general%20frente.jpeg" width="80%" />
+  <img src="IMagenes/placa%20general%20frente.jpeg" width="42%" />
+  <img src="IMagenes/placa%20general%20trasera.jpeg" width="42%" />
   <br>
   <a name="fig:esquema"></a>
-  <i>Figura 12: Vista frontal placa general.</i>
-</div>
-
-<div align="center">
-  <img src="IMagenes/placa%20general%20trasera.jpeg" width="80%" />
-  <br>
-  <a name="fig:esquema"></a>
-  <i>Figura 13: Vista posterior placa general.</i>
-</div>
-
-**Módulo de control de bomba y cooler:**
-
-<div align="center">
-  <img src="IMagenes/bomba%20cooler%20frente.jpeg" width="80%" />
-  <br>
-  <a name="fig:esquema"></a>
-  <i>Figura 14: Vista frontal bomba/cooler.</i>
-</div>
-<div align="center">
-  <img src="IMagenes/bomba%20cooler%20trasero.jpeg" width="80%" />
-  <br>
-  <a name="fig:esquema"></a>
-  <i>Figura 15: Vista posterior bomba/cooler.</i>
+  <i>Figura 13: Placa general. Izquierda: Vista frontal. Derecha: Vista posterior.</i>
 </div>
 
 
-**Módulo de control de sensores:**
 
 <div align="center">
-  <img src="IMagenes/frente%20sensores%20analog.jpeg" width="80%" />
+  <img src="IMagenes/bomba%20cooler%20frente.jpeg" width="42%" />
+  <img src="IMagenes/bomba%20cooler%20trasero.jpeg" width="42%" />
   <br>
   <a name="fig:esquema"></a>
-  <i>Figura 16: Vista frontal sensores.</i>
+  <i>Figura 15: Placa de bomba y cooler. Izquierda: Vista frontal. Derecha: Vista posterior.</i>
 </div>
 
 <div align="center">
-  <img src="IMagenes/sensores%20trasera.jpeg" width="80%" />
+  <img src="IMagenes/frente%20sensores%20analog.jpeg" width="42%" />
+  <img src="IMagenes/sensores%20trasera.jpeg" width="42%" />
   <br>
   <a name="fig:esquema"></a>
-  <i>Figura 17: Vista posterior sensores.</i>
+  <i>Figura 17: Placa de sensores. Izquierda: Vista frontal. Derecha: Vista posterior.</i>
 </div>
 
 <div align="center">
-  <img src="IMagenes/leds%20frente.jpeg" width="42%" style="margin-right: 10px;" />
+  <img src="IMagenes/leds%20frente.jpeg" width="42%" />
   <img src="IMagenes/trasera%20leds.jpeg" width="39%" />
   <br>
   <a name="fig:esquema"></a>
