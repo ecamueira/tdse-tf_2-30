@@ -380,23 +380,11 @@ La implementación física del hardware, diseñada para garantizar robustez y se
 </div>
 
 <div align="center">
-  <table border="0" style="width: 100%; text-align: center; border-collapse: collapse;">
-    <tr>
-      <td style="width: 50%; vertical-align: top; border: none;">
-        <img src="IMagenes/leds%20frente.jpeg" width="90%" />
-        <br>
-        <a name="fig:esquema_frente"></a>
-        <i>Figura 18: Vista frontal leds.</i>
-      </td>
-      
-      <td style="width: 50%; vertical-align: top; border: none;">
-        <img src="IMagenes/trasera%20leds.jpeg" width="90%" />
-        <br>
-        <a name="fig:esquema_trasera"></a>
-        <i>Figura 19: Vista posterior leds.</i>
-      </td>
-    </tr>
-  </table>
+  <img src="IMagenes/leds%20frente.jpeg" width="42%" style="margin-right: 10px;" />
+  <img src="IMagenes/trasera%20leds.jpeg" width="42%" />
+  <br>
+  <a name="fig:esquema"></a>
+  <i>Figura 18: Placa de LEDs. Izquierda: Vista frontal. Derecha: Vista posterior.</i>
 </div>
 
 ## 3.3. Funcionamiento de software.
