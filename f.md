@@ -311,7 +311,7 @@ Las bombas de riego adquiridas son escencialmente motores de corriente continua 
 El esquemático del diseño se puede ver en la figura:
 
 <div align="center">
-  <img src="IMagenes/BOMBA.png" width="40%" />
+  <img src="IMagenes/BOMBA.png" width="30%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 11: Esquemático módulo de riego.</i>
