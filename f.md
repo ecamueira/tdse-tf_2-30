@@ -242,7 +242,7 @@ Este sensor mide temperaturas desde -40°C a 80°C y porcentaje de humedad ambie
 Para la alimentación del sistema, se utilizó una fuente de corriente continua regulada de 12V y 10A alimentada por corriente de red.
 
 <div align="center">
-  <img src="img_dispositivos/modulo_fuente_cc.png" width="15%/>
+  <img src="img_dispositivos/modulo_fuente_cc.png" width="40%"/>
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 9: Modulo fuente 12 V.</i>
@@ -257,12 +257,7 @@ En esta sección se presenta el desarrollo para poder elaborar el trabajo. Se pr
 ### 3.1.1. Diagrama en bloques
 En la Figura 9 se muestra el diagrama en bloques del sistema con los principales módulos del proyecto y las funciones del microcontrolador que las relaciona entre sí.
 
-<div align="center">
-  <img src="img_dispositivos/modulo_fuente_cc.png" width="40%" style="transform: rotate(90deg); margin: 40px 0;" />
-  <br>
-  <a name="fig:esquema"></a>
-  <i>Figura 9: Modulo fuente 12 V.</i>
-</div>
+
 
 ## 3.2. Diseño de circuitos e implementación
 
