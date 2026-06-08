@@ -298,7 +298,7 @@ A partir de este funcionamiento, se toman ciertas precauciones en el diseño par
 
 El esquemático del diseño se puede ver en la figura:
 <div align="center">
-  <img src="IMagenes/LEDS.png" width="80%" />
+  <img src="IMagenes/LEDS.png" width="50%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 10: Esquemático módulo de iluminación dinámica.</i>
@@ -311,7 +311,7 @@ Las bombas de riego adquiridas son escencialmente motores de corriente continua 
 El esquemático del diseño se puede ver en la figura:
 
 <div align="center">
-  <img src="IMagenes/BOMBA.png" width="80%" />
+  <img src="IMagenes/BOMBA.png" width="50%" />
   <br>
   <a name="fig:esquema"></a>
   <i>Figura 11: Esquemático módulo de riego.</i>
